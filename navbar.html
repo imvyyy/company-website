@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Website</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="idle-logout.js"></script>
+    
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav>
+            <div class="nav-left">
+                <svg width="100" height="40" viewBox="0 0 628 364" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.234375 364L80.6918 0H627.234L604.972 63.4512H168.958L150.027 150.186L168.958 213.637H135.829L116.898 300.549H356.226L337.482 364H0.234375Z" fill="#573737"/>
+                <path d="M356.226 95.6696L232.636 277.395H150.027L60.975 162.869L150.027 150.186L199.765 220.908H202.518L279.526 95.6696H356.226Z" fill="#573737"/>
+                <path d="M416.634 300.549C399.883 300.549 385.369 298.351 373.092 293.956C360.93 289.475 351.981 282.84 346.244 274.05C340.508 265.26 339.073 254.359 341.942 241.347C344.466 230.317 349.228 221.096 356.226 213.685C363.34 206.188 372.002 200.156 382.214 195.589C392.425 191.021 403.726 187.531 416.118 185.118C428.624 182.706 441.531 181.068 454.84 180.206C470.215 179 482.721 177.837 492.359 176.716C502.111 175.596 509.397 174.002 514.215 171.934C519.034 169.779 521.96 166.591 522.993 162.368V161.593C524.714 153.492 522.706 147.202 516.969 142.721C511.347 138.153 502.34 135.87 489.949 135.87C476.869 135.87 465.74 138.024 456.561 142.333C447.497 146.642 441.015 152.114 437.114 158.749L370.339 154.613C376.305 142.548 385.311 132.121 397.359 123.332C409.52 114.456 424.149 107.648 441.244 102.908C458.34 98.0824 477.5 95.6696 498.726 95.6696C513.412 95.6696 527.123 96.9622 539.859 99.5474C552.709 102.133 563.781 106.14 573.074 111.569C582.482 116.998 589.252 123.978 593.382 132.509C597.627 140.954 598.488 151.08 595.964 162.885L566.19 296.8H496.661L502.857 269.268H500.792C495.17 275.472 488.286 280.944 480.139 285.684C471.993 290.337 462.642 294 452.087 296.671C441.531 299.256 429.714 300.549 416.634 300.549ZM446.063 262.546C456.734 262.546 466.543 260.952 475.493 257.763C484.557 254.489 492.014 250.094 497.866 244.579C503.832 239.063 507.618 232.816 509.225 225.836L513.699 204.766C511.404 205.886 508.077 206.877 503.717 207.739C499.472 208.601 494.825 209.42 489.777 210.195C484.843 210.885 479.852 211.531 474.804 212.134C469.756 212.651 465.224 213.168 461.208 213.685C452.374 214.633 444.457 216.141 437.458 218.209C430.459 220.278 424.78 223.078 420.42 226.611C416.06 230.058 413.364 234.367 412.331 239.537C410.725 247.035 413.077 252.765 419.388 256.729C425.813 260.607 434.705 262.546 446.063 262.546Z" fill="#573737"/>
+                </svg>
+
+            </div>
+            <ul class="nav-center">
+                <a href="home.php">
+                    <button class="home-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-home">
+                            <polygon points="12 20 22 10 12 4 2 10 12 20"></polygon>
+                            <line x1="12" y1="18" x2="12" y2="4"></line>
+                        </svg>
+                        Home
+                    </button>
+                </a>
+                <a href="catalog.php">
+                    <button class="catalog-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-folder">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                            </path>
+                        </svg>
+                        Catalog
+                    </button>
+                </a>
+                <a href="contact.php">
+                    <button class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-mail">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6">
+                            </polyline>
+                        </svg>
+                        Contacts
+                    </button>
+                </a>
+                
+                <?php if(isset($_SESSION['role']) && $_SESSION['role'] == 'Faculty'): ?>
+                <a href="class-list.php">
+                    <button class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-users">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        Class List
+                    </button>
+                </a>
+                <?php endif; ?>
+                
+                <button class="calendar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-book-open">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                    About
+                </button>
+            </ul>
+            <div class="nav-right">
+                <button class="account-button" id="accountButton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-user">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    Account
+                </button>
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <a href="account.php">Profile</a>
+                    <a href="session-destroy.php">Logout</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+<script>
+document.getElementById('accountButton').addEventListener('click', function() {
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    if (dropdownMenu.classList.contains('show')) {
+        dropdownMenu.classList.remove('show');
+        setTimeout(() => {
+            dropdownMenu.style.display = 'none';
+        }, 300); // Match the transition duration
+    } else {
+        dropdownMenu.style.display = 'block';
+        setTimeout(() => {
+            dropdownMenu.classList.add('show');
+        }, 10); // Slight delay to trigger the transition
+    }
+});
+
+document.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('dropdownMenu');
+    const button = document.getElementById('accountButton');
+    if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+        dropdown.classList.remove('show');
+        setTimeout(() => {
+            dropdown.style.display = 'none';
+        }, 300); // Match the transition duration
+    }
+});
+
+// Check for dark mode preference when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+    
+    // Apply dark mode immediately if previously enabled (no animation)
+    if (isDarkMode) {
+        // Apply without animation by directly setting classes
+        document.documentElement.classList.add('dark-mode');
+        document.body.classList.add('dark-mode');
+        darkModeToggle.textContent = 'Light Mode';
+    } else {
+        darkModeToggle.textContent = 'Dark Mode';
+    }
+});
+
+document.getElementById('darkModeToggle').addEventListener('click', function() {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    
+    // Add transition class for animation ONLY when toggling
+    document.documentElement.classList.add('color-theme-in-transition');
+    document.body.classList.add('color-theme-in-transition');
+    
+    // Toggle dark mode
+    if (isDarkMode) {
+        document.documentElement.classList.remove('dark-mode');
+        document.body.classList.remove('dark-mode');
+        darkModeToggle.textContent = 'Dark Mode';
+        localStorage.setItem('darkMode', 'false');
+    } else {
+        document.documentElement.classList.add('dark-mode');
+        document.body.classList.add('dark-mode');
+        darkModeToggle.textContent = 'Light Mode';
+        localStorage.setItem('darkMode', 'true');
+    }
+    
+    // Remove transition class after animation completes
+    window.setTimeout(function() {
+        document.documentElement.classList.remove('color-theme-in-transition');
+        document.body.classList.remove('color-theme-in-transition');
+    }, 1000);
+});
+</script>
+
+<style>
+/* Add transition animation styles */
+.color-theme-in-transition,
+.color-theme-in-transition * ,
+.color-theme-in-transition *:before,
+.color-theme-in-transition *:after {
+    transition: all 1s ease !important;
+    transition-delay: 0 !important;
+}
+</style>
+</body>
+
+</html>
